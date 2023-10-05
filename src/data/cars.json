@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Car 1",
+    "image": "car1.jpg",
+    "description": "Lorem ipsum..."
+  },
+  {
+    "id": 2,
+    "name": "Car 1",
+    "image": "car1.jpg",
+    "description": "Lorem ipsum..."
+  },
+
+  {
+    "id": 3,
+    "name": "Car 1",
+    "image": "car1.jpg",
+    "description": "Lorem ipsum..."
+  },
+
+  {
+    "id": 4,
+    "name": "Car 1",
+    "image": "car1.jpg",
+    "description": "Lorem ipsum..."
+  },
+
+  {
+    "id": 5,
+    "name": "Car 1",
+    "image": "car1.jpg",
+    "description": "Lorem ipsum..."
+  },
+
+  {
+    "id": 6,
+    "name": "Car 1",
+    "image": "car1.jpg",
+    "description": "Lorem ipsum..."
+  },
+  {
+    "id": 7,
+    "name": "Car 1",
+    "image": "car1.jpg",
+    "description": "Lorem ipsum..."
+  }
+]

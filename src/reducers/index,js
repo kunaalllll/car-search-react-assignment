@@ -1,0 +1,31 @@
+// reducers/index.js
+import { combineReducers } from "redux";
+import { SEARCH_CARS } from "../actions/types";
+
+const initialCarsState = {
+  // Your initial cars data here
+};
+
+const carsReducer = (state = initialCarsState, action) => {
+  switch (action.type) {
+    case SEARCH_CARS:
+      const query = action.payload.toLowerCase();
+      // Filter your cars data based on the query and return the filtered data
+      const filteredCars = state.allCars.filter((car) =>
+        car.name.toLowerCase().includes(query)
+      );
+      return { ...state, filteredCars };
+
+    // Other cases for different actions
+
+    default:
+      return state;
+  }
+};
+
+const rootReducer = combineReducers({
+  cars: carsReducer,
+  // Other reducers if needed
+});
+
+export default rootReducer;
